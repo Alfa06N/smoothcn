@@ -5,10 +5,6 @@ import type { ButtonVariants } from ".";
 import { Primitive } from "reka-ui";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from ".";
-import { Motion, motion } from "motion-v";
-import { sGestures, sTransitions, sVariants } from "@/lib/smoothcn";
-
-const MotionPrimitive = motion.create(Primitive, { forwardMotionProps: true });
 
 interface Props extends PrimitiveProps {
   variant?: ButtonVariants["variant"];
