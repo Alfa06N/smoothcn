@@ -2,6 +2,9 @@
   "name": "smoothcn",
   "private": true,
   "version": "0.0.0",
+  "bin": {
+    "smoothcn": "./cli/index.js"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +15,7 @@
     "@tailwindcss/vite": "^4.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "degit": "^2.8.4",
     "lucide-vue-next": "^1.0.0",
     "motion-v": "^2.2.1",
     "reka-ui": "^2.9.6",
