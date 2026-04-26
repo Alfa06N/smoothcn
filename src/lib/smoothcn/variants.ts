@@ -1,4 +1,3 @@
-// lib/smoothcn/variants.ts
 import { sTransitions } from "./transitions";
 
 export const sVariants = {
