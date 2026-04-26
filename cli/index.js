@@ -3,7 +3,7 @@
 const { execSync } = require('child_process');
 
 const component = process.argv[2]; // The component part
-const username = 'your-github-username';
+const username = 'Alfa06N';
 
 console.log(`🚀 Adding ${component} to your project...`);
 
