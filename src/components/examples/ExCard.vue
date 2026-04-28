@@ -71,7 +71,7 @@ const decrease = () => {
       </VCardFooter>
     </VCard>
 
-    <VCard :disable-layout-group="true" class="w-full max-w-xl overflow-hidden">
+    <!-- <VCard :disable-layout-group="true" class="w-full max-w-xl overflow-hidden">
       <VCardHeader>
         <VCardTitle>Animated Layout Card</VCardTitle>
         <VCardDescription>Smoothly synchronized!</VCardDescription>
@@ -104,7 +104,7 @@ const decrease = () => {
       <VCardFooter class="flex flex-row gap-2">
         <p>This is the footer</p>
       </VCardFooter>
-    </VCard>
+    </VCard> -->
   </LayoutGroup>
 
   <div
